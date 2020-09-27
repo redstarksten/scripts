@@ -6,7 +6,8 @@ jobs:
    steps:
       - run:
           command: |
-           printenv
+           print $HOME
+           ls
            apt-get -y update && apt-get -y upgrade && apt-get -y install bc build-essential zip curl libstdc++6 git wget python gcc clang libssl-dev repo rsync flex bison
            git config --global user.name "redstarksten"
            git config --global user.email "mahadewanto2@gmail.com"
