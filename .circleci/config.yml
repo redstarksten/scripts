@@ -6,9 +6,8 @@ jobs:
    steps:
       - run:
           command: |
-          printenv
-          ls
-          
+          printenv \
+          ls     
 workflows:
   version: 2.1
   cooking:
