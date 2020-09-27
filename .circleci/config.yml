@@ -6,7 +6,6 @@ jobs:
    steps:
       - run:
           command: |
-           printenv
            print $pwd
            print$HOME
 workflows:
