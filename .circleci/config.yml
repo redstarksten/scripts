@@ -6,8 +6,6 @@ jobs:
    steps:
       - run:
           command: |
-          print $pwd
-          print $HOME
           printenv
           ls
           
