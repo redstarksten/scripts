@@ -9,7 +9,7 @@ jobs:
            mkdir test
            cd test
            apt-get update -y && apt-get upgrade -y
-           apt-get install -y python3 git cmake clang-format clang-tidy clang-tools clang clangd libc++-dev libc++1 libc++abi-dev libc++abi1 libclang-dev libclang1 liblldb-dev libllvm-ocaml-dev libomp-dev libomp5 lld lldb llvm-dev llvm-runtime llvm python-clang build-essential make bzip2 libncurses5-dev lld libssl-dev python3-pip ninja-build
+           apt-get install -y python3 git cmake clang-format clang-tidy clang-tools clang libc++-dev libc++1 libc++abi-dev libc++abi1 libclang1 liblldb-dev libomp-dev libomp5 lld lldb llvm-dev llvm-runtime llvm build-essential make bzip2 libncurses5-dev lld libssl-dev python3-pip ninja-build
            echo "$(pwd)"
            echo "$HOME"
            echo "$which ld"
