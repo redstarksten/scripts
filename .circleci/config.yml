@@ -12,7 +12,8 @@ jobs:
            apt-get install -y python3 git cmake clang-format clang-tidy clang-tools clang libc++-dev libc++1 libc++abi-dev libc++abi1 libclang1 libomp-dev libomp5 lld lldb llvm-dev llvm-runtime llvm build-essential make bzip2 libncurses5-dev lld libssl-dev python3-pip ninja-build
            echo "$(pwd)"
            echo "$HOME"
-           echo "$which ld"
+           echo "$which lld"
+           whereis lld
 workflows:
   version: 2.1
   cooking:
